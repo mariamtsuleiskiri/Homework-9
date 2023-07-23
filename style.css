@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-style: Arial, Helvetica, sans-serif;
+}
+.allcontainer{
+    max-width: 480px;
+    margin: auto;
+}
+.mobile-container {
+    background-color: #555;
+    height: auto;
+    color: white;
+    border-radius: 10px;
+  }
+  .topnav {
+    background-color:rgba(33,37,41,255);
+    position: relative;
+    overflow: hidden;
+  }
+  .commlogo{
+    width: 25%;
+    height: auto;
+    display: flex;
+    align-items: center;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    color: white;
+    padding:14px 16px ;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+    display: flex;
+    width: 80px;
+    height: 25px;
+    color: #9b9d9e;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: 0.5px solid #9b9d9e;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+  }
+  .topnav p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    color: #9b9d9e;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .header{
+    background-image:url(header-bg.jpg) ;
+    height: 510px;
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+    background-size: 200% auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .header-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .header h3{
+    font-size:26px;
+    color: white;
+    transform: skewX(-15deg);
+    margin-bottom: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+  .header h1{
+    color: white;
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    margin-bottom: 25px;
+    
+  }
+  .header-button{
+    background-color:#ffc803 ;
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    border-radius: 8px;
+    box-shadow: none;
+    border: none;
+    padding: 30px 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  button:hover{
+    background-color: #a58306;
+    cursor: pointer;
+  }
+  .services{
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 80px 20px;
+    margin-bottom: 30px;
+  }
+  .services h1{
+    font-size: 50px;
+    font-weight: 600;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+    margin-top: 35px;
+  }
+  .services h2{
+    font-size:26px;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+  }
+  .firstp{
+    font-size: 26px;
+    margin-top: 0;
+    color:rgb(80, 79, 79);
+    opacity: 0.9;
+    transform: skewX(-15deg);
+    font-family:'Times New Roman', Times, serif;
+    margin-bottom: 70px;
+  }
+  .logoborder{
+    background-color: #ffc803;
+    color: white;
+    border-radius: 50%;
+    padding: 35px 30px;
+    font-size: 76px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  .logoborderlock{
+    background-color: #ffc803;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 76px;
+    padding: 40px 45px;
+    margin-bottom: 15px;
+  }
+  .services p{
+    text-align: center;
+    display: inline-block;
+    color: rgb(80, 79, 79);
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .portfolio{
+    background-color: #f8f9fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .portfolio h1{
+    font-size: 50px;
+    text-transform:uppercase;
+    padding-top: 110px;
+    margin-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .portfolio p{
+    font-size: 22px;
+    margin-top: 0;
+    color:rgb(80, 79, 79);
+    opacity: 0.9;
+    transform: skewX(-15deg);
+    font-family:'Times New Roman', Times, serif;
+    margin-bottom: 70px;
+  }
+
+  
