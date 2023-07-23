@@ -5,6 +5,7 @@
 body{
   max-width: 480px;
   margin:0 auto;
+  box-sizing: border-box;
 }
 .topnav {
   overflow: hidden;
@@ -12,6 +13,7 @@ body{
   position: fixed;
   width: 100%;
   max-width: 480px;
+  margin:0 auto;
   z-index: 1;
 }
 
@@ -60,77 +62,6 @@ body{
   max-width: 480px;
   height: 70px;
 }
-
- /* Hide checkbox */
-
-
-/*.mobile-container {
-    background-color: #555;
-    height: auto;
-    color: white;
-    border-radius: 10px;
-    display: flex;
-    max-width: 480px;
-  }
-  nav{
-    position: fixed;
-    display: flex;
-    z-index: 1;
-    box-sizing: border-box;
-    max-width: 480px;
-  }
-  .topnav {
-    background-color:rgba(33,37,41,255);
-    overflow: hidden;
-    position: relative;
-  }
-  .commlogo{
-    width: 25%;
-    height: auto;
-    display: flex;
-    align-items: center;
-  }
-  
-  .topnav #myLinks {
-    display: none;
-  }
-  
-  .topnav a {
-    color: white;
-    padding:14px 16px ;
-    text-decoration: none;
-    font-size: 17px;
-    display: block;
-  }
-  
-  #myLinks a.icon {
-    display: flex;
-    width: 80px;
-    height: 25px;
-    color: #9b9d9e;
-    justify-content: space-around;
-    align-items: center;
-    border: 0.5px solid #9b9d9e;
-    top:0;
-    left:0;
-    border-radius: 8px;
-    margin-top: 10px;
-    margin-right: 20px;
-    margin-bottom: 25px;
-    position: absolute;
-  }
-  .topnav p{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 600;
-    color: #9b9d9e;
-  }
-  
-  #myLinks a:hover {
-    color:#ffc803;
-  }
-  .icon:hover{
-    background-color:#17191c;
-  }*/
   .headerH{
     background-image:url(header-bg.jpg) ;
     height: 510px;
