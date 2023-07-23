@@ -1,11 +1,8 @@
 *{
-    margin: 0;
-    padding: 0;
-}
-body{
-  max-width: 480px;
-  margin:0 auto;
+  margin:0;
+  padding:0;
   box-sizing: border-box;
+  max-width: 480px;
 }
 .topnav {
   overflow: hidden;
