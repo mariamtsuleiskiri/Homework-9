@@ -151,6 +151,7 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 15px;
+    max-width: 120px;
   }
   .logoborderlock{
     background-color: #ffc803;
@@ -199,6 +200,8 @@
     background-color:white;
     height: 440px;
     margin-bottom: 30px;
+    flex-basis: calc(33.33%-20px);
+    box-sizing: border-box;
   }
   .image-with-text{
     background-image:url(./portfolio/watch.jpg);
@@ -624,4 +627,32 @@ footer{
 .social-icons-footer i:hover{
   background-color: grey;
 }
-  
+@media only screen and (min-width:480px){ 
+.topnav{
+  display: none;
+}
+.spacefortopnav{
+  display: none;
+}
+*{
+  max-width: 1920px;
+}
+.servicehead{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.servicecontent{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.portfoliocontainer{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+}
