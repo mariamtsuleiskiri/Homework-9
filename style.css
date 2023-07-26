@@ -221,6 +221,8 @@
     height: 315px;
     width: 420px;
     background-size: 100%;
+    box-sizing: border-box;
+    object-fit: contain;
 
     position: relative;
     background-repeat: no-repeat;
