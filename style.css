@@ -260,6 +260,8 @@
     background-size: 100%;
     position: relative;
     background-repeat: no-repeat;
+    box-sizing: border-box;
+    object-fit: contain;
 }
 .image-with-text2:hover .overlay{
     opacity: 1;
@@ -272,6 +274,8 @@
     width:420px;
     background-size: 100%;
     position: relative;
+    box-sizing: border-box;
+    object-fit: contain;
 }
 .image-with-text3:hover .overlay{
     opacity: 1;
@@ -284,6 +288,8 @@
     width:420px;
     background-size: 100%;
     position: relative;
+    box-sizing: border-box;
+    object-fit: contain;
 }
 .image-with-text4:hover .overlay{
     opacity: 1;
@@ -296,6 +302,8 @@
     width:420px;
     background-size: 100%;
     position: relative;
+    box-sizing: border-box;
+    object-fit: contain;
 }
 .image-with-text5:hover .overlay{
     opacity: 1;
@@ -308,6 +316,8 @@
     width:420px;
     background-size: 100%;
     position: relative;
+    box-sizing: border-box;
+    object-fit: contain;
 }
 .image-with-text6:hover .overlay{
     opacity: 1;
