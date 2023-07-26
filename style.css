@@ -161,7 +161,7 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 15px;
-    max-width: 80px;
+    max-width: 120px;
   }
   .logoborderlock{
     background-color: #ffc803;
@@ -173,7 +173,7 @@
     font-size: 76px;
     padding: 40px 45px;
     margin-bottom: 15px;
-    max-width: 80px;
+    max-width: 120px;
   }
   .services p{
     text-align: center;
