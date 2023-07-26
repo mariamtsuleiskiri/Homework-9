@@ -120,6 +120,9 @@
     padding: 80px 20px;
     margin-bottom: 30px;
   }
+  .servicehead{
+    text-align: center;
+  }
   .services h1{
     font-size: 50px;
     font-weight: 600;
@@ -700,6 +703,7 @@ footer{
 .logoborder{
   padding:30px;
   width:120px;
+  max-width:none;
 }
 .logoborder i{
   font-size: 60px;
@@ -707,6 +711,7 @@ footer{
 .logoborderlock{
   padding:30px;
   width:120px;
+  max-width: 120px;
 }
 .logoborderlock i{
   font-size: 60px;
