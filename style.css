@@ -615,16 +615,16 @@ footer{
   font-size: 20px;
   margin-left: 15px;
 }
-.footerp{
+.footerpe{
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
-.footerp p{
+.footerpe p{
   margin-top:15px;
 }
-.footerp a{
+.footerpe a{
   display: flex;
   text-decoration: none;
 }
@@ -668,6 +668,42 @@ footer{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+.firstservice{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.secondservice{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.thirdservice{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.logoborder{
+  padding:30px;
+  width:120px;
+}
+.logoborder i{
+  font-size: 60px;
+}
+.logoborderlock{
+  padding:30px;
+  width:120px;
+}
+.logoborderlock i{
+  font-size: 60px;
+}
+.services h1{
+  font-size: 36px;
+  margin-bottom: 0;
 }
 .portfoliocontainer{
 display: flex;
@@ -855,6 +891,33 @@ justify-content: space-between;
   font-size: 18px;
   padding:20 ,5;
   margin-top: 0;
+}
+footer{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding-top: 15px;
+  height: 80px;
+}
+.copyright{
+  margin-left: 100px;
+  margin-right: 25px;
+}
+.footerpe p:nth-child(2){
+  margin-left: 90px;
+}
+.footerpe p:nth-child(1){
+  margin-right:0px;}
+.footerpe{
+  margin-right:90px;
+  text-decoration: none;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.footerpe a{
+  color: black;
 }
 
 }
