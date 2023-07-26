@@ -542,6 +542,8 @@
   padding-right: 20px;
   height: 1000px;
   background-size: 340%;
+  box-sizing: border-box;
+  width: 480px;
 }
 .contactus p{
   font-size: 22px;
