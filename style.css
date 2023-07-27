@@ -360,6 +360,15 @@ nav{
   justify-content: space-around;
   margin-left: 20px;
 }
+.fifthcolumn{
+  margin-left: 0;
+}
+.image-about-container4,
+.image-about-container3,
+.image-about-container2,
+.image-about-container{
+  margin-right: 15px;
+}
 .fourthcolumn{
   margin-bottom: 0;
 }
