@@ -1042,7 +1042,7 @@ footer{
   margin:0;
   padding: 0;
   border-width: 3px;
-  transform: scale(2) translateX(-150px) translateY(60px);
+  transform: scale(2) translateX(-180px) translateY(-60px);
   z-index: 1;
 }
 .circleimage3{
@@ -1051,6 +1051,9 @@ footer{
   border-width: 3px;
   transform: scale(2) translateX(-100px) translateY(60px);
   z-index: 1;
+}
+.secondcolumn .vertical-line{
+  transform: translateX(-400px) translateY(-100px);
 }
 .vertical-line{
   margin: 0;
@@ -1067,8 +1070,11 @@ footer{
   margin-top: 0;
 }
 .secondcolumn .text-left{
-  transform: translateX(-200px);
+  transform: translateX(600px) translateY(-280px);
   margin-top: 0;
+}
+.secondcolumn h2{
+  transform: translateX(-260px)
 }
 .thirdcolumn .text-left{
   transform: translateX(-200px);
